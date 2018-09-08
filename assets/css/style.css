@@ -1,0 +1,144 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #adb6b2;
+}
+.navbar {
+    width: 100%;
+    margin: 0 auto;
+    height: 80px;
+    padding-bottom: 20px;
+
+}
+
+header {
+    /*width: 960px; */
+    align-content: center;
+    background: #ffffff;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding-bottom: 0px;
+    padding-top: 0px;
+    border-bottom: #cccccc;
+    border-bottom-style: solid;
+    border-bottom-color: #cccccc;
+    
+}
+
+
+.titleName {
+    height: auto;
+    width: 200px;
+    background: #4aaaa5;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    float: left;
+
+}
+
+nav ul {
+    list-style: none;
+    float: right;
+    color: #777777;
+    display: inline-block;
+    padding: 0px 10px 0px 10px;
+}
+
+nav li {
+    display: inline-block;
+    padding: 20px 10px 0px 10px;
+}
+
+nav li a {
+    text-decoration: none;
+    color: #777777;
+}
+
+#box-set {
+    position: absolute;
+  /*  align-self: auto; */
+    width: 960px;
+    height: auto;
+    left: 0;
+    right: 0;
+    margin: auto;
+    background-color: #ffffff;
+    margin-top: 15px;
+    padding-bottom: 20px;
+    margin-bottom: 15px;
+}
+
+#mask {
+    float: left;
+}
+
+p {
+    padding-left: 20px;
+    margin-left: 20px;
+}
+
+form {
+    text-align: center;
+    margin: auto;
+}
+
+img {
+    padding: 20px 20px 20px 20px;
+}
+
+section {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+footer {
+    clear: both;
+    background-color: #666666;
+    color: #777777;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 35px;
+    width: auto;
+    padding-top: 15px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    border-top: #4aaaa5;
+    border-top-style: solid;
+    border-top-color: #4aaaa5;  
+    margin-top: 20px;
+
+}
+
+@media only screen and (max-width: 980px) {
+    .container{
+        padding: 0 20px;
+        max-width: 760px;
+    }
+    #box-set{
+        padding-top: 130px;
+        max-width: 420px;
+    }
+    .imgclass{
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    p{
+        color: teal
+    }
+}
+
+@media only screen and (max-width: 768px) {
+        #box-set{
+        max-width: 100%;
+    }
+    .imgclass{
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    p{
+        color: red
+    }
+}
+
